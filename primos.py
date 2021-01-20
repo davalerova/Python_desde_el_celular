@@ -1,0 +1,13 @@
+n = 5609
+num = 1
+count = 0
+while (num <= n):
+ for x in range(1, num + 1):
+ 	if (num % x == 0):
+ 		count += 1
+ if (count == 2):
+ 	print(" " + str(num), end="")
+ count = 0
+ num += 1
+
+
